@@ -9,7 +9,8 @@ function App() {
       },
       error => console.log(error),
       {
-        enableHighAccuracy: true
+        enableHighAccuracy: true,
+        timeout: 5000
       }
     );
   }, []);
