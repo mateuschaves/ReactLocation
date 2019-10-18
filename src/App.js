@@ -9,7 +9,7 @@ function App() {
       },
       error => console.log(error),
       {
-        enableHighAccuracy: true,
+        enableHighAccuracy: false,
         timeout: 5000
       }
     );
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <p style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}>
-        getCurrentPosition - O coisa
+        enableHighAccuracy: false
       </p>
 
       <p style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}>
