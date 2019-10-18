@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <p style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}>
-        getCurrentPosition
+        getCurrentPosition - O coisa
       </p>
 
       <p style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}>
