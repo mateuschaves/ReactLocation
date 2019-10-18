@@ -23,7 +23,6 @@ function App() {
         {" "}
         Longitude: {position.longitude}{" "}
       </p>
-      <p style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}> </p>
     </div>
   );
 }
