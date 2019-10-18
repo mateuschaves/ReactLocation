@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function App() {
   const [position, setPosition] = useState({});
   useEffect(_ => {
-    navigator.geolocation.watchPosition(
+    navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
         setPosition(coords);
       },
@@ -15,6 +15,10 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <p style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}>
+        getCurrentPosition
+      </p>
+
       <p style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}>
         {" "}
         Latitude: {position.latitude}{" "}
